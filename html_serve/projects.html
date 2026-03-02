@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="body">
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('/html_serve/sidebar.html')
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById('sidebar-container').innerHTML = html;
+            });
+    </script>
+
+    <div class="main-content">
+        <h1 class="header_style">Projects</h1>
+
+        <div class="project-box">
+            <h2>DQL-Navigator - An RL based car driving learning</h2>
+            <p>
+                This project entails taking a 2D car racing basic environment from Gymnasium and investigating the performance of two RL algorithms; tabular Q-learning and DQN. 
+            </p>
+            <a href="https://github.com/gyuszix/DQL-Navigator" target="_blank" class="project-button">View on GitHub</a>
+            <a href="https://prezi.com/view/QArtwAtCwH5BxmTu6jHg/?referral_token=EpVnqflnB3FN" target="_blank" class="project-button">Watch Prezi</a>
+        </div>
+
+        <div class="project-box">
+            <h2>Spike City - A Volleyball League Web-App</h2>
+            <p>
+                A Web-App for scheduling meeting times for our Volleyball League. 
+            </p>
+            <a href="https://github.com/CS5610-WebDev-Summer25/group-project-frontend-dioscuri-protocol" target="_blank" class="project-button">View on GitHub</a>
+            <a href="https://volleyball-app-frontend-mk1.uw.r.appspot.com/" target="_blank" class="project-button">Visit Live Site</a>
+        </div>
+
+        <div class="project-box">
+            <h2>Rebalance-AI - Bluebikes Demand Forecasting</h2>
+            <p>
+                MLOps platform predicting bike demand across Boston's Bluebikes network. Airflow orchestration, MLflow tracking, drift detection, and multi-model ensemble deployed on GCP.
+            </p>
+            <a href="https://github.com/PranavViswanathan/Rebalance-AI" target="_blank" class="project-button">View on GitHub</a>
+        </div>
+
+        <div class="project-box">
+            <h2>More Coming Soon!</h2>
+            <p>
+                I am working on plenty of projects concurrently, stay tuned, TBD!
+            </p>
+
+        </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>

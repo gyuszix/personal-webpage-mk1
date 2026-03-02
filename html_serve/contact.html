@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="body">
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('/html_serve/sidebar.html')
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById('sidebar-container').innerHTML = html;
+            });
+    </script>
+    
+<div class="main-content">
+    <h1 class="header_style">Contact & Profiles</h1>
+
+    <div class="project-box">
+        <h2>GitHub</h2>
+        <p>
+            Explore my personal repositories and coding projects.
+        </p>
+        <a href="https://github.com/gyuszix" target="_blank" class="project-button">Visit GitHub Profile</a>
+    </div>
+
+    <div class="project-box">
+        <h2>LinkedIn</h2>
+        <p>
+            Connect with me professionally.
+        </p>
+        <a href="https://www.linkedin.com/in/julesplanky" target="_blank" class="project-button">Visit LinkedIn Profile</a>
+    </div>
+
+    <div class="project-box">
+        <h2>Email</h2>
+        <p>
+            Have a question or want to collaborate? Send me an email.
+        </p>
+        <a href="mailto:gyuszix@gmail.com" class="project-button">Send Email</a>
+    </div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="body">
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('/html_serve/sidebar.html')
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById('sidebar-container').innerHTML = html;
+            });
+    </script>
+
+    <div class="main-content">
+    <h1 class="header_style">About Me</h1>
+
+    <p>
+        My name is Gyula (Jules) — I'm a European multilingual engineer who's lived across 
+        Europe, Southeast Asia, New Zealand, and Australia before landing in Boston 
+        two years ago to pursue a Master's in Computer Science at Northeastern University.
+    </p>
+
+    <p>
+        Before pivoting to CS, I spent three years in finance — first as a Treasury Analyst at 
+        Morgan Stanley, then as a Fixed Income Reference Data Analyst at MSCI. That experience 
+        gave me a deep appreciation for reliable systems, clean data, and what happens when 
+        production breaks at 2am.
+    </p>
+
+    <p>
+        Now I build things. My work spans distributed systems (MapReduce in Go, deployed on AWS ECS), 
+        machine learning (hybrid search reranking with BERT, reinforcement learning for autonomous 
+        driving), and full-stack web apps. I'm most at home somewhere between the infrastructure 
+        ,the model and low level code — where code meets reality.
+    </p>
+
+    <p>
+        Outside of coding, I'm into tea culture, 3D printing, 
+        laser cutting, and tinkering with Arduino and ESP32 projects. I run a self-hosted 
+        Raspberry Pi NAS at home and currently trying to automate my daily tasks with agentic AI.
+    </p>
+
+    <p>
+        I'm currently looking for software engineering roles where I can bring both my technical 
+        skills and my cross-domain perspective to a team building something meaningful.
+    </p>
+</div>
+
+
+</body>
+</html>
