@@ -24,12 +24,16 @@ This is the Mk1 (first iteration) of my personal website. It's intentionally min
 - Deployed on Google App Engine
 
 ## Screenshots
+<img width="1454" height="845" alt="Screenshot 2026-03-02 at 18 00 14" src="https://github.com/user-attachments/assets/cbb42734-d74b-4f18-8867-966898140298" />
 
-<!-- Add your screenshots here -->
-![Homepage](screenshots/homepage.png)
-![About](screenshots/about.png)
-![Projects](screenshots/projects.png)
-![Contact](screenshots/contact.png)
+<img width="1454" height="845" alt="Screenshot 2026-03-02 at 18 00 21" src="https://github.com/user-attachments/assets/5c254bc4-a56b-46e4-a4a4-6b7d020d9dc3" />
+
+<img width="1454" height="845" alt="Screenshot 2026-03-02 at 18 00 28" src="https://github.com/user-attachments/assets/7fff736f-ba95-4173-8bfb-e25ad8c3851c" />
+
+<img width="1454" height="845" alt="Screenshot 2026-03-02 at 18 00 33" src="https://github.com/user-attachments/assets/19599824-8cfb-4f22-a6dd-01954a32669d" />
+
+<img width="713" height="812" alt="Screenshot 2026-03-02 at 18 01 02" src="https://github.com/user-attachments/assets/58d3b681-b8a6-4386-b32e-94d2677e20d1" />
+
 
 ## What's Next
 
