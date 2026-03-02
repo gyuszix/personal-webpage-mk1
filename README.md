@@ -32,9 +32,6 @@ This is the Mk1 (first iteration) of my personal website. It's intentionally min
 
 <img width="1454" height="845" alt="Screenshot 2026-03-02 at 18 00 33" src="https://github.com/user-attachments/assets/19599824-8cfb-4f22-a6dd-01954a32669d" />
 
-<img width="713" height="812" alt="Screenshot 2026-03-02 at 18 01 02" src="https://github.com/user-attachments/assets/58d3b681-b8a6-4386-b32e-94d2677e20d1" />
-
-
 ## What's Next
 
 Mk2 will likely involve an actual frontend framework and a proper backend. But for now — this gets the job done.
